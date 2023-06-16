@@ -72,8 +72,6 @@
 - `allure generate allure-results`
 - `allure open`
 
-![Alt text](./assets/Report.png?raw=true "Report")
-
 ## ReportPortal Integration with TestNG
 1. Dependencies
 
@@ -95,9 +93,5 @@
 2. Run tests on GitHub Actions:
 - Check/update the file `.github/workflows/actions.yml`
 - Commit and push code, the test will be triggered
+- Download Allure report at the session Artifacts
 
-![Alt text](./assets/RunWhenPushCode.png?raw=true "RunWhenPushCode")
-
-- Download Allure report
-
-![Alt text](./assets/AllureReport.png?raw=true "AllureReport")
