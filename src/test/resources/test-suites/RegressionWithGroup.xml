@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" verbose="1" >
+    <!--
+    <listeners>
+        <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener" />
+    </listeners>
+    -->
+    <groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>
+
+    <test name="Mobile Demo Apps" >
+        <classes>
+            <class name="testcases.Login">
+            </class>
+            <!--<class name="testcases.Login" />-->
+        </classes>
+    </test>
+</suite>
